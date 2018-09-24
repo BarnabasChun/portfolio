@@ -1,0 +1,30 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+[class*="heading"] {
+  text-transform: uppercase;
+}
+
+.heading-2 {
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+
+.heading-3 {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.paragraph {  
+  font-family: 'Source Sans Pro', sans-serif;
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
