@@ -14,14 +14,14 @@ body {
 
 .title-container {
   &__main-heading {
-    font-size: 10rem;
+    font-size: 8rem;
     font-weight: 500;
     letter-spacing: 5px;
   }
 
   &__sub-heading {
     font-weight: 400;
-    font-size: 4.8rem;
+    font-size: 3.6rem;
   }
 }
 
@@ -37,6 +37,7 @@ body {
 
 .paragraph {  
   font-family: 'Source Sans Pro', sans-serif;
+  line-height: 2.2;
   &:not(:last-child) {
     margin-bottom: 3rem;
   }
