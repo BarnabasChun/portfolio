@@ -1,0 +1,11 @@
+.footer {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: $darkBackground1;
+  
+  &__social {
+    a {
+      color: #fff;
+    }
+  }
+}

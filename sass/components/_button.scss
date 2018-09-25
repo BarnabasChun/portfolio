@@ -26,6 +26,11 @@
       transform: translateY(3px);
     }
   }
+
+  &--huge {
+    border-radius: 100px;
+    padding: 3rem 6rem;
+  }
 }
 
 .menu-btn {
