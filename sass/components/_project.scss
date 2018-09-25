@@ -3,7 +3,10 @@
   justify-content: space-between;
 
   > * {
-    width: 50%;
+    width: calc(50% - 3rem);
+    &:not(:last-child) {
+      margin-right: 6rem;
+    }
   }
 
   &__img {
