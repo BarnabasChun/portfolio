@@ -8,3 +8,7 @@ $(window).scroll(() => {
     headerNav.css('background-color', 'transparent');
   }
 });
+
+$('a').smoothScroll({
+  speed: 1000
+});
