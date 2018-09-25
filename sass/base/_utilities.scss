@@ -1,18 +1,4 @@
-.dark-background {
-  background-color: $darkBackground1;
-  *, *::before, *::after { color: #fff; };
-}
-
-.light-background {
-  background-color: $lightBackground1;
-  .heading-2 { color: $grey1; };
-  .heading-3 { color: $grey2; };
-  .paragraph, .heading-4 { color: $grey3; };
-  a { color: $grey4; };
-}
-
 .flex { display: flex; };
-
 .center-text { text-align: center !important;}
 .margin-bottom-xs { margin-bottom: 1rem !important; }
 .margin-bottom-sm { margin-bottom: 2rem !important; }

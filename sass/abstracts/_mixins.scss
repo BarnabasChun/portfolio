@@ -4,3 +4,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@mixin fontColour($darkColour) {
+  &--light { color: #fff; }
+  &--dark { color: $darkColour; }
+}

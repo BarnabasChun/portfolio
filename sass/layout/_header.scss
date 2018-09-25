@@ -11,6 +11,7 @@
   url(../assets/hero.jpeg);
   height: 100vh;
   background-attachment: fixed;
+  color: #fff;
 
   &__title-container {
     @include positionCenter;
@@ -29,8 +30,9 @@
     justify-content: flex-end;
     align-items: center;
   }
-
+  
   &__link {
+    color: #fff;
     padding: 2rem;
     border: 2px solid transparent;
     transition: all .4s;
