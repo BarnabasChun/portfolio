@@ -2,3 +2,25 @@
   background-color: $lightBackground1;
   padding: 8rem 0;
 }
+
+.skills {
+  background-color: $darkBackground1;
+  padding: 8rem 0;
+  color: #fff;
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    grid-gap: 4rem 2rem;
+    align-items: center;
+    justify-items: center;
+  }
+
+  &__item {
+    transition: color .3s;
+    font-size: 10rem;
+    &:hover {
+      color: $green2;
+    }
+  }
+}
