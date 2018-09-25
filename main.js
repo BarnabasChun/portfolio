@@ -12,3 +12,21 @@ $(window).scroll(() => {
 $('a').smoothScroll({
   speed: 1000
 });
+
+
+const manageNav = () => {
+  let isNavOpen = false;
+
+  const toggleNav = () => {
+    isNavOpen = !isNavOpen;
+    $('.mobile-nav').toggleClass('nav-open');
+  };
+
+  [
+    $('.menu-btn'),
+    $('.mobile-nav__link'),
+    $('.close-btn')
+  ].forEach(el => el.click(toggleNav));
+}
+
+manageNav();

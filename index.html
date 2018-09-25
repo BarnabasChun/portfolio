@@ -13,7 +13,35 @@
 </head>
 
 <body>
-  <header class="header dark-background">
+  <nav class="mobile-nav">
+    <span class="close-btn">&times;</span>
+    <ul class="mobile-nav__list">
+      <li class="mobile-nav__item">
+        <a class="mobile-nav__link" href="#about">about</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a class="mobile-nav__link" href="#skills">skills</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a class="mobile-nav__link" href="#projects">projects</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a class="mobile-nav__link" href="#contact">contact</a>
+      </li>
+    </ul>
+    <div class="social mobile-nav__social">
+      <a href="http://twitter.com/barnabas_chun" class="social__link">
+        <i class="fa fa-twitter social__icon"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/barnabas-chun" class="social__link">
+        <i class="fa fa-linkedin social__icon"></i>
+      </a>
+      <a href="https://github.com/barnabasChun" class="social__link">
+        <i class="fa fa-github social__icon"></i>
+      </a>
+    </div>
+  </nav>
+  <header class="header">
     <nav class="header__nav">
       <ul class="header__list wrapper">
         <li class="header__item">
@@ -29,7 +57,7 @@
           <a class="header__link" href="#contact">contact</a>
         </li>
         <li class="header__item flex">
-          <span class="menu-btn"></span>
+          <i class="fa fa-bars menu-btn"></i>
         </li>
       </ul>
     </nav>
@@ -38,7 +66,7 @@
       <h2 class="title-container__sub-heading">Front-End Developer</h2>
     </div>
   </header>
-  <section id="about" class="about light-background">
+  <section id="about" class="about">
     <div class="about__content wrapper">
       <div class="center-text wrapper margin-bottom-md">
         <h2 class="heading-2 heading-2--dark center-text">About Me</h2>
@@ -57,7 +85,7 @@
       </p>
     </div>
   </section>
-  <section id="skills" class="skills dark-background">
+  <section id="skills" class="skills">
     <div class="center-text wrapper margin-bottom-lg">
       <h2 class="heading-2 heading-2--light">My Skills</h2>
     </div>
