@@ -1,0 +1,48 @@
+.header {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: 
+  linear-gradient(
+    rgba(#000, .6), 
+    rgba(#000, .8)
+  ), 
+  url(../assets/hero.jpeg);
+  height: 100vh;
+  background-attachment: fixed;
+
+  &__title-container {
+    @include positionCenter;
+  }
+
+  &__nav {
+    position: fixed;
+    width: 100%;
+    position: fixed;
+    padding: 4rem 0;
+  }
+  
+  &__list {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__link {
+    padding: 2rem;
+    border: 2px solid transparent;
+    transition: all .4s;
+    &:hover {
+      animation: surroundingBorder 1s ease;
+      color: $green2;
+    }
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 4rem;
+    }
+  }
+}
