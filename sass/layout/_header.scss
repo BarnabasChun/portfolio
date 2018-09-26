@@ -23,6 +23,11 @@
     width: 100%;
     position: fixed;
     padding: 2rem 0;
+    background-color: transparent;
+
+    &.scroll-down {
+      background-color: #000;
+    }
   }
   
   &__list {

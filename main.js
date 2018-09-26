@@ -3,16 +3,15 @@ const navHeight = headerNav.height();
 
 $(window).scroll(() => {
   if (window.scrollY > navHeight) {
-    headerNav.css('background-color', 'rgba(0, 0, 0, .85)');
+    headerNav.addClass('scroll-down');
   } else {
-    headerNav.css('background-color', 'transparent');
+    headerNav.removeClass('scroll-down');
   }
 });
 
 $('a').smoothScroll({
   speed: 1000
 });
-
 
 const manageNav = () => {
   let isNavOpen = false;
