@@ -28,4 +28,14 @@
 .projects {
   background-color: $lightBackground1;
   padding: 10rem 0;
+  
+  @include respondTo(large) {
+    padding: 6rem 0;
+  }
+
+  &__content {
+    @include respondTo(large) {
+      margin-top: -6rem;
+    }
+  }
 }

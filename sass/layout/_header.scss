@@ -42,6 +42,11 @@
     padding: 2rem;
     border: 2px solid transparent;
     transition: all .4s;
+
+    @include respondTo(large) {
+      display: none;
+    }
+
     &:hover {
       animation: surroundingBorder 1s ease;
       color: $green2;
